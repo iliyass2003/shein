@@ -40,7 +40,7 @@ def verify_admin_password(password):
 
 def client_page():
     """Page principale pour les clients"""
-    st.title("🛍️ طلب مهني")
+    st.title("🛍️ Espace clients")
     
     # Initialisation de la session
     if 'panier' not in st.session_state:
